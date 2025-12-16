@@ -1,0 +1,25 @@
+# Binaries
+vayu
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
+test.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vendor
+vendor/
