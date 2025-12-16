@@ -8,8 +8,9 @@ import (
 
 // Column represents a data column in the table.
 type Column struct {
-	Key   string
-	Width int
+	Key    string
+	Width  int
+	Hidden bool
 }
 
 // detectColumns scans the first N entries to find common keys.
